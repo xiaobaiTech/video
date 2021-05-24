@@ -1,0 +1,46 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "http://tv.zuowl.cn/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "http://tv.zuowl.cn/js/chunk-vendors.5417bf06.js",
+                    "path": "js/chunk-vendors.5417bf06.js"
+                },
+                {
+                    "url": "http://tv.zuowl.cn/js/app.5e891b71.js",
+                    "path": "js/app.5e891b71.js"
+                },
+                {
+                    "url": "http://tv.zuowl.cn/css/app.92a7d835.css",
+                    "path": "css/app.92a7d835.css",
+                    "children": [
+                        {
+                            "url": "http://tv.zuowl.cn/images/table-wood-texture.a7faa8fe.jpg",
+                            "path": "images/table-wood-texture.a7faa8fe.jpg"
+                        },
+                        {
+                            "url": "http://tv.zuowl.cn/images/next.00b74953.svg",
+                            "path": "images/next.00b74953.svg"
+                        }
+                    ]
+                },
+                {
+                    "url": "http://tv.zuowl.cn/favicon.ico",
+                    "path": "favicon.ico"
+                }
+            ]
+        }
+    ],
+    "failures": []
+}

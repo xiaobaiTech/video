@@ -1,0 +1,54 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "tv-zuowl-cn-vmel2lgf",
+    "options": {
+        "url": "http://tv.zuowl.cn/",
+        "index": "index.html",
+        "domain": "tv.zuowl.cn",
+        "origin": "http://tv.zuowl.cn",
+        "ipaddress": "159.75.14.170",
+        "originURL": "http://tv.zuowl.cn",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Tue, 18 May 2021 07:28:36 GMT",
+                "content-type": "text/html",
+                "last-modified": "Mon, 17 May 2021 17:08:00 GMT",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "etag": "W/\"60a2a2f0-6b4\"",
+                "content-encoding": "gzip"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1621322915619,
+        "end": 1621322918516,
+        "spend": 2.897
+    }
+}
